@@ -1,0 +1,134 @@
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:addroid="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_me"
+                />
+            <TextView
+                style="@android:style/TextAppearance.Large.Inverse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="低频治疗APP"
+                android:gravity="center_horizontal"
+                android:textColor="@color/colorTitle"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+            <EditText
+                android:id="@+id/edtStartPhone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/edit_txt"
+                android:hint="@string/number"
+                android:drawableStart="@drawable/admin"
+                android:drawablePadding="20dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"/>
+
+            <EditText
+                android:id="@+id/edtStartPwd"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_txt"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/password"
+                android:drawablePadding="20dp"
+                android:paddingStart="5dp"
+                android:paddingEnd="5dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start|center_vertical">
+
+                    <CheckBox
+                        android:layout_width="wrap_content"
+                        android:id="@+id/forgetCheck"
+                        android:layout_height="match_parent" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/remember"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/forgotText"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:gravity="center_vertical|end"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:onClick="forgot_Click"
+                    android:text="@string/forgot"
+                    android:textColor="@color/colorPrimary"/>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="login_Click"
+                android:text="@string/login"
+                android:background="@drawable/button"
+                android:textStyle="bold"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:text="@string/addaccount"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimary"
+                android:onClick="image1_Click"
+                android:clickable="true"
+                android:focusable="true"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

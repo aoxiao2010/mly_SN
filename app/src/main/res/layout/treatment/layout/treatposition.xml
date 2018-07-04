@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_addposition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        app:navigationIcon="@drawable/reback"
+        app:navigationContentDescription="@string/returnback"
+        app:contentInsetStartWithNavigation="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_gravity="start"
+            android:text="@string/addposition"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/treatmentposition"
+            android:textSize="20sp"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:prompt="@string/app_name"
+            android:layout_width="140dp"
+            android:layout_height="match_parent"
+            android:entries="@array/treatmentposition"
+            android:layout_marginStart="20dp"
+            android:gravity="center_vertical">
+        </Spinner>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/image_btn3"
+            android:layout_width="113dp"
+            android:layout_height="153dp"
+            android:contentDescription="@string/equipment"
+            android:src="@drawable/es02"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/select_equipment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="left|center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/area"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtName_CF"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bianmi"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="left|center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/treatmentposition"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txt_BW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unknown"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="left|center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bluetooth"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txtMAC_BW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/unknown"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="left|center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/state"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/txt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/closed"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:background="@drawable/treatbutton"
+        android:layout_margin="30dp"
+        android:visibility="invisible"/>
+
+</LinearLayout>

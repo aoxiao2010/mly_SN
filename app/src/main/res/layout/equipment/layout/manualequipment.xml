@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_manualequipment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/holo_blue_light">
+            <ImageButton
+                android:id="@+id/return_back2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_blue_light"
+                android:src="@drawable/reback" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="添加设备"
+                android:textSize="18dip"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end">
+                <!--增加添加设备中的蓝牙搜索菜单2018.06.12 mly-->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="搜索蓝牙"
+                    android:layout_marginStart="140dp"
+                    android:textSize="20sp"
+                    android:textColor="@android:color/white"/>
+
+                <ImageButton
+                    android:id="@+id/manual_equipment_research"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ble"
+                    android:contentDescription="@string/add"
+                    android:layout_marginStart="5dp"/>
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="47dp">-->
+
+        <!--<ImageButton-->
+        <!--android:id="@+id/return_back2"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@android:color/white"-->
+        <!--android:src="@drawable/reback"/>-->
+        <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:fontFamily="sans-serif-condensed"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/equipment"-->
+        <!--android:textStyle="bold"-->
+        <!--android:textSize="18dip"/>-->
+        <!--</LinearLayout>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/subfield" />
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="200dp"
+            android:src="@drawable/es01"
+            android:layout_gravity="center_horizontal"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/productnumber"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/number"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:editable="true"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/bluetooth1"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/MAC"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/prescription1"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/prescriptiondata"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/memory"
+                android:gravity="center"
+                android:textStyle="bold"/>
+            <EditText
+                android:id="@+id/equipmentmemory"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="10M"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:textStyle="bold"/>
+        </LinearLayout>
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit"
+            android:background="@drawable/button"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_margin="15dp"/>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:drawSelectorOnTop="false"
+            android:id="@id/android:list" />
+    </LinearLayout>
+</ScrollView>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawerlayout"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fitsSystemWindows="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.administrator.neuroelectricstimulator.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--每个Fragment背景下都有这个样式-->
+        <!--<include layout="@layout/toolbar" />-->
+
+    </FrameLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/left_menu"
+        android:layout_width="250dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        android:background="#fff"
+        android:orientation="vertical">
+        <!--app:headerLayout="@layout/head"-->
+        <!--app:menu="@menu/new_menu">-->
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:background="#87CEEB"
+            android:orientation="vertical">
+
+            <include layout="@layout/new_menu"></include>
+
+        </FrameLayout>
+
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

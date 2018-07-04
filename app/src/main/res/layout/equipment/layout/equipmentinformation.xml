@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/equipment_lin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_equipment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_dark"
+        app:navigationIcon="@drawable/reback"
+        app:navigationContentDescription="@string/returnback"
+        app:contentInsetStartWithNavigation="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_gravity="start"
+            android:text="@string/equipment"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/addequipment"
+                android:layout_marginStart="140dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"/>
+            <ImageButton
+                android:id="@+id/add_equipment"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/add"
+                android:contentDescription="@string/add"
+                android:layout_marginStart="5dp"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="@color/colorPrimary"
+        android:paddingTop="10dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"/>
+
+    <Button
+        android:id="@+id/submit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        android:background="@drawable/treatbutton"
+        android:layout_margin="30dp"
+        android:visibility="invisible"/>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--增加搜索蓝牙功能菜单2018.06.12mly-->
+    <group>
+        <item
+            android:id="@+id/researching"
+            android:title="搜索蓝牙"
+            android:icon="@drawable/manual"
+            />
+    </group>
+</menu>

@@ -1,0 +1,260 @@
+<resources>
+    <string name="app_name">神经电刺激仪</string>
+
+    <!--开始页面数据-->
+    <string name="title">BioFeedback</string>
+    <string name="number">邮箱或手机号码</string>
+    <string name="password">密码</string>
+    <string name="remember">记住密码</string>
+    <string name="forgot">忘记密码?</string>
+    <string name="login">登陆</string>
+    <string name="addaccount">没有账号?建立新账号</string>
+
+    <!--欢迎界面数据-->
+    <string name="welcome1">胃肠功能神经调控仪是集治胃、治肠为一体</string>
+    <string name="welcome2">针对多种脾胃肠道消化道系统的疾病</string>
+    <string name="welcome3">结合中国传统针灸疗法与美国最新胃肠功能调节的科研结果</string>
+    <string name="welcome4">用经皮电刺激对胃肠疾病进行治疗,操作简单无痛苦</string>
+    <string name="company">宁波迈达医疗仪器有限公司</string>
+    <string name="address">地址:浙江省宁波市北仑区保税南区庐山西路167-8</string>
+
+    <!--注册界面数据-->
+    <string name="name">名字</string>
+    <string name="famliyname">姓</string>
+    <string name="doctor">医生ID(可选)</string>
+    <string name="register">注册</string>
+    <string name="existaccount">已经有一个BioFeedback账号</string>
+    <string name="login_1">点击此处登录</string>
+
+
+    <!--忘记密码界面数据-->
+    <string name="instructions">在下面输入您的邮箱或手机号码以接受您的密码重置说明</string>
+    <string name="prompt">请输入邮箱或手机号码</string>
+    <string name="submit">提交</string>
+    <string name="btnBlue">蓝牙扫一扫</string>
+    <string name="btnDelete">删除</string>
+    
+    <!--选择栏目界面数据-->
+    <string name="mine">我</string>
+    <string name="treatment">治疗</string>
+    <string name="equipment">设备信息</string>
+    <string name="prescription">处方信息</string>
+    <string name="report">我的健康数据报告</string>
+
+    <!--我的信息界面数据-->
+    <string name="selector">选择器</string>
+    <string name="persional">个人信息</string>
+    <string name="help">帮助与反馈</string>
+    <string name="setting">设置</string>
+    <string name="customer">迈达客服</string>
+    <string name="exit">退出</string>
+
+    <!--个人信息界面数据-->
+    <string name="myphoto">我的照片</string>
+    <string name="nickname">昵称</string>
+    <string name="email">电子邮箱</string>
+    <string name="born">出生年月</string>
+    <string name="gender">性别</string>
+    <string name="changepassword">更改密码</string>
+
+    <!--帮助与反馈界面数据-->
+    <string name="help1">常见问题</string>
+    <string name="help2">常规故障排查</string>
+    <string name="help3">意见反馈</string>
+
+    <string name="question1">如何注册、登录等操作说明</string>
+    <string name="question2">如何设置训练方案等操作说明</string>
+    <string name="question3">如何查看历史数据等操作说明</string>
+    <string name="question4">如何打开训练探头电源等操作说明</string>
+    
+    <!--治疗-->
+    <string name="addposition">添加部位</string>
+    <string name="starttreat">开始治疗</string>
+    <!--开始治疗-->
+    <string name="intension">强度:</string>
+    <string name="treatmentposition">治疗部位:</string>
+    <string name="bluetooth">蓝牙MAC:</string>
+    <string name="state">工作状态:</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="add">+</string>
+    <string name="reduce">—</string>
+
+    <string name="area">适用范围:</string>
+    <string name="bianmi">便秘</string>
+
+    <!--添加治疗部位-->
+    <string name="zusanli">足三里</string>
+    <string name="neiguan">内关</string>
+    <string name="zhongwanxue">中晚穴</string>
+    <string name="guanyuan">关元</string>
+    <string name="selectBW">请选择需要治疗的部位！</string>
+    
+    <!--设备信息-->
+    <string name="addequipment">添加设备</string>
+    <string name="manual">手动添加</string>
+    <string name="flicking">扫一扫</string>
+    <string name="productnumber">\u3000产品编号:</string>
+    <string name="bluetooth1">\u3000蓝牙MAC:</string>
+    <string name="prescription1">\u3000处方信息:</string>
+    <string name="memory">\u3000内存容量:</string>
+
+    <string name="closed">关闭</string>
+    <string name="open">打开</string>
+    <string name="unknown">xxx</string>
+    <string name="delete">删除</string>
+    <string name="delEquip">删除设备确认</string>
+    <string name="download">数据下载</string>
+    <string name="strStatusText">就绪</string>
+    <string name="strequipCon1">请先连接第一台设备！</string>
+    <string name="strequipCon2">设备已开启，不能下载数据！</string>
+    <string name="strequipCon3">数据下载失败！</string>
+    <string name="strBlue">请打开蓝牙！</string>
+    <string name="strDownload">正在下载中…</string>
+    <string name="strEquipDel">是否删除MAC地址为 </string>
+    <string name="strEquipDel1">的设备！</string>
+    <string name="strEquipDelOK">设备删除成功！</string>
+    <string name="strEquipDelFail">设备删除失败！</string>
+    <string name="isAddEquip">添加部位时，选择部位，不能添加设备，如需要添加，请返回菜单栏</string>
+    <string name="selectEquipName">请选择名称为MedKinetic Electroceuticals的设备</string>
+    <string name="selectEquipOK">此设备已经添加</string>
+
+    <!--处方信息-->
+    <string name="addprescription">添加处方</string>
+    <string name="isAddprescription">添加设备时，选择处方，不能添加处方，如需要添加，请返回菜单栏</string>
+
+    <!--我的健康数据报告-->
+    <string name="today">今日</string>
+    <string name="week">周报</string>
+    <string name="month">月报</string>
+    <string name="more">更多</string>
+    <string name="reback">返回</string>
+
+    <string name="from">FROM</string>
+    <string name="to">TO</string>
+    <string name="button1">取消</string>
+    <string name="button2">确定</string>
+
+
+    <string name="photo">头像</string>
+    <string name="returnback">返回</string>
+    <string name="image">图片</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="devName">设备名称</string>
+    <string name="devAddr">地址</string>
+    <string name="notifyOK">已连接，正在打开通知</string>
+    <string name="notifyFailed">通知打开失败</string>
+    <string name="newAddrUpdated">新的地址更新成功</string>
+    <string name="currentDevNotKnown">当前地址:未知地址</string>
+    <string name="tab_stimulation">刺激</string>
+    <string name="tab_prescription">处方</string>
+    <string name="tab_network">网络</string>
+    <string name="tab_setting">设置</string>
+    <string name="btnBLE">蓝牙设置</string>
+    <string name="btnNetwork">网络设置</string>
+    <string name="unknown_device">未知设备</string>
+    <string name="connectDev">连接设备</string>
+    <string name="notifyAlreadyConnected">设备已经连接或者正在连接</string>
+    <string name="addr_not_set">地址尚未设置</string>
+    <string name="set_addr">请到"设置"->"蓝牙设置"，刷新后再选择感兴趣的设备</string>
+    <string name="current_addr">当前地址</string>
+    <string name="dev_connecting">设备正在连接中...</string>
+    <string name="dev_connecting1">连接中...</string>
+    <string name="dev_connNO">未连接</string>
+    <string name="dev_connected">设备连接成功</string>
+    <string name="dev_connected1">连接成功</string>
+    <string name="dev_con_failed">设备连接失败</string>
+    <string name="dev_con_down">设备连接被断开</string>
+    <string name="dev_con_OK">此MAC地址已连接！</string>
+    <string name="dev_con_MACNull">MAC地址为空，请前往设备信息添加设备！</string>
+    <string name="btnStart">开始</string>
+    <string name="btnStop">停止</string>
+    <string name="btnSetPres">设置处方</string>
+    <string name="btnDownload">下载事件</string>
+    <string name="btnLoadPres">应用处方到刺激器</string>
+    <string name="btnViewPres">查看刺激器处方</string>
+    <string name="devShouji">手机式刺激器</string>
+    <string name="devShoubiao">手表式刺激器</string>
+    <string name="devZusanli">足三里刺激器</string>
+    <string name="devZhenjiu">针灸式刺激器</string>
+    <string name="devType">设备类型</string>
+    <string name="valueCurrent">电流值：</string>
+    <string name="warnDisconnect">当前设备没有连接,数据无法发送：</string>
+    <string name="currentModFailed">电流值调节失败</string>
+    <string name="currentModFailed1">设备关闭状态，无法调节电流</string>
+    <string name="currentModOk">电流值调节成功</string>
+    <string name="queryPresOK">发送查询处方命令成功</string>
+    <string name="queryPresFailed">发送查询处方命令失败</string>
+    <string name="downloadPresOK">发送下载处方命令成功</string>
+    <string name="downloadPresFailed">发送下载处方命令失败</string>
+    <string name="download0">无下载数据！</string>
+    <string name="SavePresFailed">保存处方失败</string>
+    <string name="SavePresOK">保存处方成功</string>
+    <string name="loadPresError">载入处方数据错误</string>
+    <string name="presNotSet">处方没有设置,在下面列表中点击一项进行设置</string>
+    <string name="Freq">脉冲频率：</string>
+    <string name="presID">处方ID：</string>
+    <string name="PWM">脉冲宽度：</string>
+    <string name="microSecond">微秒</string>
+    <string name="miliSecond">毫秒</string>
+    <string name="pulseType">脉冲种类：</string>
+    <string name="onTime">刺激时间：</string>
+    <string name="offTime">间歇时间：</string>
+    <string name="OveralTime">刺激总时间：</string>
+    <string name="Second">秒</string>
+    <string name="minute">分钟</string>
+    <string name="milliA">毫安</string>
+    <string name="PresReturnInfo">处方信息返回确认</string>
+    <string name="OK">确定</string>
+    <string name="CurrentRecipel">当前处方</string>
+    <string name="Name">名称</string>
+    <string name="Acupoint">穴位</string>
+    <string name="refresh">刷新</string>
+    <string name="cancel">取消</string>
+    <string name="startDeviceOK">发送开始命令成功</string>
+    <string name="startDeviceFailed">发送开始命令失败</string>
+    <string name="stopDeviceOK">发送停止命令成功</string>
+    <string name="stopDeviceFailed">发送停止命令失败</string>
+    <string name="queryPagesOK">发送查询事件命令成功</string>
+    <string name="queryPagesFailed">发送查询事件命令失败</string>
+    <string name="getPagesFailed">发送下载事件命令失败</string>
+    <string name="getPagesOK">发送下载事件命令成功</string>
+    <string name="deletePagesFailed">删除下载事件命令失败</string>
+    <string name="deletePagesOk">删除下载事件命令成功</string>
+    <string name="totalPages">设备共有</string>
+    <string name="Pages">页面</string>
+    <string name="hasDownloaded">已经下载</string>
+    <string name="DownloadDone">下载完成</string>
+    <string name="ch1Current">A通道电流值：</string>
+    <string name="ch2Current">B通道电流值：</string>
+    <string name="cmd0">命令0发送成功</string>
+    <string name="NoChangeCurrent">刺激处于停止状态。无法调节电流！ </string>
+    <string name="btnEditPres">自定义处方</string>
+    <string name="tvFreq">脉冲频率</string>
+    <string name="tvPulseWidth">脉冲宽度</string>
+    <string name="tvPulseType">脉冲种类</string>
+    <string name="tvOnTime">刺激时间</string>
+    <string name="tvOffTime">间隙时间</string>
+    <string name="tvTotalTime">刺激总时</string>
+    <string name="hintFreq">单位Hz,取值1~10000</string>
+    <string name="hintPulseWidth">单位ms，范围0.05~50</string>
+    <string name="hintPulseType">0：单向波，1：双向波</string>
+    <string name="hintOnTime">单位秒，最小值0.1</string>
+    <string name="hintOffTime">单位秒，最小值0</string>
+    <string name="hintTotalTime">单位为分钟，取值5~240</string>
+    <string name="notEmpty">不可为空!</string>
+    <string name="error1">脉冲频率范围1~10000Hz</string>
+    <string name="error2">脉冲宽度范围0.05~50ms</string>
+    <string name="error3">脉冲种类必须为0和1</string>
+    <string name="error4">刺激时间最小值是0.1秒</string>
+    <string name="error5">间隙时间最小值为0秒</string>
+    <string name="error6">刺激总时间范围为5~240分钟</string>
+    <string name="error7">脉冲频率和宽度的关系设置错误!</string>
+    <string name="about">关于本软件...</string>
+    <string name="version">V1.0</string>
+    <string name="downError">下载事件错误，请重新下载</string>
+    <string name="title_activity_main_xcf">MainXCFActivity</string>
+
+</resources>

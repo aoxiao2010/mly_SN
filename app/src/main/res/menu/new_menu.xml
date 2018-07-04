@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single"
+        android:clickable="true">
+        <item
+            android:id="@+id/treatment"
+            android:icon="@drawable/treatment"
+            android:title="@string/treatment"
+            android:checkable="true"
+            app:showAsAction="never"/>
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single"
+        android:clickable="true">
+        <item
+            android:id="@+id/equipment"
+            android:icon="@drawable/equipment"
+            android:title="@string/equipment"
+            android:checkable="true"
+            app:showAsAction="never"/>
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single"
+        android:clickable="true">
+        <item
+            android:id="@+id/prescription"
+            android:icon="@drawable/prescription"
+            android:title="@string/prescription"
+            android:checkable="true"
+            app:showAsAction="never"/>
+    </group>
+
+    <group
+        android:id="@+id/group4"
+        android:checkableBehavior="single"
+        android:clickable="true">
+
+        <item
+            android:id="@+id/report"
+            android:icon="@drawable/report"
+            android:title="@string/report"
+            android:checkable="true"
+            app:showAsAction="never" />
+    </group>
+
+    <!--<group android:checkableBehavior="single">-->
+
+        <!--<item-->
+            <!--android:id="@treatmentFragmentment"-->
+            <!--android:icon="@drawatreatmentFragmentment"-->
+            <!--android:title="@strtreatmentFragmentment"-->
+            <!--android:checkable="true"-->
+            <!--app:showAsAction="ifRoom"/>-->
+
+        <!--<item-->
+            <!--android:id="@+id/equipment"-->
+            <!--android:icon="@drawable/equipment"-->
+            <!--android:title="@string/equipment"-->
+            <!--android:checkable="true"-->
+            <!--app:showAsAction="ifRoom"/>-->
+
+        <!--<item-->
+            <!--android:id="@+id/prescription"-->
+            <!--android:icon="@drawable/prescription"-->
+            <!--android:title="@string/prescription"-->
+            <!--android:checkable="true"-->
+            <!--app:showAsAction="ifRoom"/>-->
+
+        <!--<item-->
+            <!--android:id="@healthreportport"-->
+            <!--android:icon="@drawahealthreportport"-->
+            <!--android:title="@strhealthreportport"-->
+            <!--android:checkable="true"-->
+            <!--app:showAsAction="ifRoom"/>-->
+
+    <!--</group>-->
+</menu>

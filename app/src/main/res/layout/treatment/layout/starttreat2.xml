@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_treatment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_blue_light">
+        <ImageButton
+            android:id="@+id/return_back_treat"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_blue_light"
+            android:src="@drawable/reback" />
+        <TextView
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/treatment"
+            android:textSize="18dip"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="搜索蓝牙"
+                android:layout_marginStart="140dp"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"/>
+            <ImageButton
+                android:id="@+id/add_ble_research"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/add"
+                android:contentDescription="@string/add"
+                android:layout_marginStart="5dp"/>
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:id="@+id/stone2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:background="@color/lightGrey"
+            android:text="内关"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_device1"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_gravity="left|center_vertical"
+                android:src="@drawable/es01" />
+
+            <LinearLayout
+                android:id="@+id/information"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/area"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/txt11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bianmi"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bluetooth"
+                        android:textSize="20sp" />
+                    <!--<TextView-->
+                        <!--android:id="@+id/txt31"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/unknown"-->
+                        <!--android:textSize="20sp" />-->
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/txt31"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="9B:F1:22:2F:FB:C7"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="设备状态:"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/txt41"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="就绪"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80sp">
+
+                    <TextView
+                        android:id="@+id/tvicurrent1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="2.0"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="60sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!--创建第二个刺激器-->
+    <LinearLayout
+        android:id="@+id/stone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:gravity="center"
+            android:background="@color/lightGrey"
+            android:text="足三里"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_device2"
+                android:layout_width="180dp"
+                android:layout_height="200dp"
+                android:layout_gravity="left|center_vertical"
+                android:src="@drawable/es01" />
+
+            <LinearLayout
+                android:id="@+id/information2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/area"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/txt12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bianmi"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                 <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/bluetooth"
+                        android:textSize="20sp" />
+
+                    <!--<TextView-->
+                        <!--android:id="@+id/txt32"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:text="@string/unknown"-->
+                        <!--android:textSize="20sp" />-->
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/txt32"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="9B:F1:22:2F:FB:C7"
+                        android:textSize="20sp" />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25sp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="设备状态:"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/txt42"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="就绪"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80sp">
+                    <TextView
+                        android:id="@+id/tvicurrent2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="5.5"
+                        android:textColor="@color/darkBlue"
+                        android:textSize="60sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

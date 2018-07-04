@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.example.administrator.neuroelectricstimulator.SlideDelete
+        android:id="@+id/child"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="200dp"
+                android:id="@+id/ImgCF"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/equipment"
+                android:src="@drawable/report2"/>
+            <LinearLayout
+                android:id="@+id/information"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="治疗部位:"/>
+                    <TextView
+                        android:id="@+id/txtAcpoint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="足三里"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="脉冲模式:"/>
+                    <TextView
+                        android:id="@+id/txtPulseWidth"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="脉冲串"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="刺激频率:"/>
+                    <TextView
+                        android:id="@+id/txtFreq"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="25Hz"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="刺激时间:" />
+                    <TextView
+                        android:id="@+id/txtOnTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="3秒"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="休息时间:" />
+                    <TextView
+                        android:id="@+id/txtOffTime"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2秒"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="脉冲方向:" />
+                    <TextView
+                        android:id="@+id/txtPulseDirection"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="单向"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="适用范围:" />
+                    <TextView
+                        android:id="@+id/txtName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="便秘"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="110dp"
+            android:layout_height="match_parent">
+
+            <!--<TextView-->
+                <!--android:id="@+id/download"-->
+                <!--android:layout_width="110dp"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:background="@color/lilac2"-->
+                <!--android:gravity="center"-->
+                <!--android:text="下载"-->
+                <!--android:textColor="@color/darkBlue"-->
+                <!--android:textSize="20sp" />-->
+
+            <TextView
+                android:id="@+id/cfDelete"
+                android:layout_width="110dp"
+                android:layout_height="match_parent"
+                android:background="@color/lilac"
+                android:gravity="center"
+                android:text="@string/delete"
+                android:textColor="@color/darkBlue"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </com.example.administrator.neuroelectricstimulator.SlideDelete>
+</LinearLayout>

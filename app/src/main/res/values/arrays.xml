@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="treatmentposition" >
+        <item>足三里(ST36)</item>
+        <item>内关(PC6)</item>
+        <item>足三里(ST36)</item>
+        <item>内关(PC6)</item>
+        <item>关元(CV4)</item>
+        <item>中脘(CV12)</item>
+        <item>阿是穴</item>
+        <item>足三里(ST36)</item>
+        <item>胫后神经</item>
+    </string-array>
+</resources>

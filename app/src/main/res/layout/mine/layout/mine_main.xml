@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0FFF0">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_mine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layerType="hardware"
+        android:background="@android:color/holo_blue_dark"
+        app:navigationIcon="@drawable/reback"
+        app:contentInsetStartWithNavigation="0dp"
+        app:navigationContentDescription="@string/returnback">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:text="@string/mine"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/personalID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/persional"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/list_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:drawableStart="@drawable/personal"
+        android:drawablePadding="10dp"
+        android:drawableEnd="@drawable/point"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/helpID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/help"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/list_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:drawableStart="@drawable/help"
+        android:drawablePadding="10dp"
+        android:drawableEnd="@drawable/point"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/setting"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/list_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:drawableStart="@drawable/setting"
+        android:drawablePadding="10dp"
+        android:drawableEnd="@drawable/point"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/customer"
+        android:textSize="22sp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="10dp"
+        android:background="@drawable/list_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:drawableStart="@drawable/service"
+        android:drawablePadding="10dp"
+        android:drawableEnd="@drawable/point"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+
+    <TextView
+        android:id="@+id/exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:paddingStart="18dp"
+        android:paddingEnd="10dp"
+        android:text="@string/exit"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:background="@drawable/list_selector"
+        android:clickable="true"
+        android:focusable="true"
+        android:drawableStart="@drawable/exit"
+        android:drawablePadding="10dp"
+        android:drawableEnd="@drawable/point"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>
